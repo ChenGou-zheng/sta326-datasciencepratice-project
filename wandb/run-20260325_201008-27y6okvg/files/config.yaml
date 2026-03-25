@@ -1,0 +1,134 @@
+_wandb:
+    value:
+        cli_version: 0.25.1
+        e:
+            vb5mgnlpkmv2oagfg1fon1a13jl10psu:
+                codePath: /root/lab/project/meteorite.ipynb
+                codePathLocal: meteorite.ipynb
+                cpu_count: 64
+                cpu_count_logical: 128
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "7615235203072"
+                        used: "159682932736"
+                email: jacob.jingming.li@gmail.com
+                executable: /opt/venv/bin/python
+                gpu: NVIDIA A30
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 3584
+                      memoryTotal: "25769803776"
+                      name: NVIDIA A30
+                      uuid: GPU-64287af5-46dc-37c4-8b4b-cca962f38feb
+                host: 1f12722bd38d
+                memory:
+                    total: "1081594793984"
+                os: Linux-6.8.0-90-generic-x86_64-with-glibc2.39
+                program: /root/lab/project/meteorite.ipynb
+                python: CPython 3.12.3
+                root: /root/lab/project
+                startedAt: "2026-03-25T12:10:08.086267Z"
+                writerId: vb5mgnlpkmv2oagfg1fon1a13jl10psu
+        m: []
+        python_version: 3.12.3
+        t:
+            "1":
+                - 1
+                - 5
+                - 35
+                - 41
+                - 49
+                - 53
+                - 63
+                - 80
+            "2":
+                - 1
+                - 5
+                - 35
+                - 41
+                - 49
+                - 53
+                - 63
+                - 80
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.12.3
+            "5": 0.25.1
+            "8":
+                - 1
+            "12": 0.25.1
+            "13": linux-x86_64
+audit_csv:
+    value: ./logs/train_audit.csv
+audit_preview_per_class:
+    value: 10
+backbone_lr:
+    value: 1e-05
+batch_size:
+    value: 32
+bayes_threshold_trials:
+    value: 40
+clean_index_csv:
+    value: ./logs/clean_train_ids.csv
+cutmix_alpha:
+    value: 0
+default_threshold:
+    value: 0.5
+head_dropout:
+    value: 0.3
+head_lr:
+    value: 0.0005
+head_only_epochs:
+    value: 2
+image_size:
+    value: 224
+learning_rate:
+    value: 0.0003
+local_weight_path:
+    value: ./weights/model.safetensors
+max_image_side:
+    value: 4096
+min_image_side:
+    value: 64
+mixup_alpha:
+    value: 0.2
+mixup_prob:
+    value: 0.5
+model_name:
+    value: tf_efficientnetv2_s
+num_classes:
+    value: 2
+num_epochs:
+    value: 10
+num_workers:
+    value: 2
+output_dir:
+    value: ./logs
+project_name:
+    value: sta326-meteorite
+run_name:
+    value: tf_efficientnetv2_s-two-stage
+test_class_prior:
+    value:
+        - 0.8
+        - 0.2
+unfreeze_last_n_blocks:
+    value: 4
+use_class_weighted_loss:
+    value: true
+use_local_pretrained:
+    value: true
+use_pretrained:
+    value: true
+use_prior_threshold_on_test:
+    value: true
+use_weighted_sampler:
+    value: false
+val_ratio:
+    value: 0.2
+weight_decay:
+    value: 0.02
