@@ -1,7 +1,0 @@
-2026-03-25 19:33:35,467 INFO    MainThread:14778 [wandb_init.py:setup_run_log_directory():717] Logging user logs to /root/lab/project/wandb/run-20260325_193335-1rgiuz1j/logs/debug.log
-2026-03-25 19:33:35,468 INFO    MainThread:14778 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to /root/lab/project/wandb/run-20260325_193335-1rgiuz1j/logs/debug-internal.log
-2026-03-25 19:33:35,468 INFO    MainThread:14778 [wandb_init.py:init():844] calling init triggers
-2026-03-25 19:33:35,468 INFO    MainThread:14778 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
-config: {'model_name': 'efficientnetv2_s', 'image_size': 224, 'num_classes': 2, 'batch_size': 32, 'num_epochs': 10, 'learning_rate': 0.0003, 'weight_decay': 0.0001, 'num_workers': 2, 'val_ratio': 0.2, 'project_name': 'sta326-meteorite', 'run_name': 'efficientnetv2_s-baseline', 'output_dir': './logs', 'test_class_prior': [0.8, 0.2], 'bayes_threshold_trials': 40, 'default_threshold': 0.5, 'clean_index_csv': './logs/clean_train_ids.csv', 'audit_csv': './logs/train_audit.csv', 'min_image_side': 64, 'max_image_side': 4096, 'audit_preview_per_class': 10, 'use_weighted_sampler': True, '_wandb': {}}
-2026-03-25 19:33:35,468 INFO    MainThread:14778 [wandb_init.py:init():892] starting backend
-2026-03-25 19:33:35,468 INFO    MainThread:14778 [wandb_init.py:init():895] sending inform_init request
